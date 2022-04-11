@@ -29,7 +29,7 @@ driver = webdriver.Chrome(
 
 ### Set up search term
 
-search_term = "type 2 diabetes"
+search_term = "diabetes supplies"
 ls_search_term = search_term.split(" ") 
 search_term_final = "+".join([word for word in ls_search_term])
 search_term_filename = "_".join([word for word in ls_search_term])
